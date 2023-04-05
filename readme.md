@@ -152,5 +152,5 @@ Widget build(BuildContext context) {
 		),
 	);
 }
-
+```
 Para usar o exemplo, basta clonar este repositório e executar o aplicativo em seu dispositivo ou emulador Android ou iOS. Certifique-se de ter configurado o SDK com sua chave de aplicativo antes de executar o aplicativo.
