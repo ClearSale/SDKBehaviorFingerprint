@@ -14,8 +14,14 @@ dependencies:
       ref: main
       version: 0.3.3
 ```
+## Uso do App
+Para executar o app é necessário clonar o repositório e executar o comando:
+``` yaml
+Flutter run
+```
+na raiz do projeto.
 
-## Uso
+## Uso do Plugin
 Para usar o plugin behavior_analytics_flutter_sdk, siga os seguintes passos:
 
 1.: Inicie o SDK usando a chave do aplicativo:
@@ -33,6 +39,7 @@ String sessionID = await BehaviorAnalyticsFlutterSdk.generateSessionID();
 ``` yaml
 BehaviorAnalyticsFlutterSdk.collectDeviceInformation(sessionID);
 ```
+
 
 ## Exemplo
 Este exemplo inclui um aplicativo Flutter simples que usa o plugin behavior_analytics_flutter_sdk para enviar eventos de usuário para a plataforma de análise de comportamento da Behavior.
