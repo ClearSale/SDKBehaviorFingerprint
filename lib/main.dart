@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    BehaviorAnalyticsFlutterSdk.start("l4nz170nx7dyvpn4m793");
+    BehaviorAnalyticsFlutterSdk.start("appkey_fornecido_pela_clearsale");
   }
 
   void _handleButtonPress() {
