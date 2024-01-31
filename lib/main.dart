@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String? _sessionID = 'undefined';
+  String _sessionID = 'undefined';
   static List<String> userEventList =
       UserEventType.values.map(((e) => e.name)).toList();
   String dropdownValue = userEventList.first;
@@ -29,15 +29,18 @@ class _MyAppState extends State<MyApp> {
   void _handleButtonPress() {
     BehaviorAnalyticsFlutterSdk.generateSessionID().then((sessionID) {
       BehaviorAnalyticsFlutterSdk.collectDeviceInformation(sessionID);
-      BehaviorAnalyticsFlutterSdk.sendEvent(
-          UserEventType.values.firstWhere((e) => e.name == dropdownValue),
-          sessionID);
       print(sessionID);
 
       setState(() {
         _sessionID = sessionID;
       });
     });
+  }
+
+  void _eventButtonPress() {
+    BehaviorAnalyticsFlutterSdk.sendEvent(
+        UserEventType.values.firstWhere((e) => e.name == dropdownValue),
+        _sessionID);
   }
 
   @override
@@ -79,6 +82,12 @@ class _MyAppState extends State<MyApp> {
               ElevatedButton(
                 onPressed: _handleButtonPress,
                 child: Text('Coletar'),
+              ),
+              SizedBox(height: 10),
+              Text('Evento: $dropdownValue\n'),
+              ElevatedButton(
+                onPressed: _eventButtonPress,
+                child: Text('Gerar Evento'),
               ),
             ],
           ),
