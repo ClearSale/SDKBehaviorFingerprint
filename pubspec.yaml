@@ -15,8 +15,7 @@ dependencies:
   behavior_analytics_flutter_sdk:
     git:
       url: https://PublicPackagesCS@dev.azure.com/PublicPackagesCS/Behavior/_git/BehaviorAnalytics.SDK.Flutter
-      ref: main
-      version: 0.3.3
+      ref: feature/send-events
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
