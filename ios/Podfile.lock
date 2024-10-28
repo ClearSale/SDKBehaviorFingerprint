@@ -1,8 +1,8 @@
 PODS:
-  - behavior_analytics_flutter_sdk (0.0.1):
-    - CSBehavior (= 3.1.0-beta)
+  - behavior_analytics_flutter_sdk (0.5.16):
+    - CSBehavior (= 5.0.1)
     - Flutter
-  - CSBehavior (3.1.0-beta)
+  - CSBehavior (5.0.1)
   - Flutter (1.0.0)
 
 DEPENDENCIES:
@@ -10,7 +10,7 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
 
 SPEC REPOS:
-  https://dev.azure.com/PublicPackagesCS/Behavior/_git/BehaviorAnalytics.SDK.IOS.Specs:
+  https://dev.azure.com/CS-PublicPackages/Behavior/_git/BehaviorAnalytics.SDK.IOS.Specs:
     - CSBehavior
 
 EXTERNAL SOURCES:
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  behavior_analytics_flutter_sdk: 2acb41ffaa6342e15bd9f8829115fc3b903832ce
-  CSBehavior: 2544848f0d4b167a27feff1887fb8791f84b3eed
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  behavior_analytics_flutter_sdk: 5f3cb1c4b129ee726c51ec65da4f1f5ef1b7ee67
+  CSBehavior: 6aebf20b578b3ab24b4ee6522f0de93a016a7c32
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
 
-PODFILE CHECKSUM: c03ca1242ab49be6610caf6c9d09f6b49a2bf8d7
+PODFILE CHECKSUM: 0c4e67027057452a4b6bc2684c8ee6427c1bbf8f
 
-COCOAPODS: 1.14.2
+COCOAPODS: 1.15.2
