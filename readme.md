@@ -12,14 +12,14 @@ Para usar este exemplo, você precisa adicionar o plugin `behavior_analytics_flu
 dependencies:
   behavior_analytics_flutter_sdk:
     git:
-      url: https://PublicPackagesCS@dev.azure.com/PublicPackagesCS/Behavior/_git/BehaviorAnalytics.SDK.Flutter
+      url: https://dev.azure.com/CS-PublicPackages/Behavior/_git/BehaviorAnalytics.SDK.Flutter
       ref: main
-      version: 0.3.3
+      version: 0.5.16
 ```
 ## Uso do App
 Para executar o app é necessário clonar o repositório e executar o comando:
 ``` yaml
-Flutter run
+flutter run
 ```
 na raiz do projeto.
 
@@ -34,9 +34,9 @@ Inserir no pubspec.yaml a dependência a seguir:
 dependencies:
 	behavior_analytics_flutter_sdk:
 		git:
-			url: https://PublicPackagesCS@dev.azure.com/PublicPackagesCS/Behavior/_git/BehaviorAnalytics.SDK.Flutter
+			url: https://dev.azure.com/CS-PublicPackages/Behavior/_git/BehaviorAnalytics.SDK.Flutter
 			ref: main
-			version: 0.3.3
+			version: 0.5.16
 ```
 
   
